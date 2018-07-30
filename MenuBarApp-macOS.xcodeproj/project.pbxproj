@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EDD63955210FD8270041CE18 /* BarMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDD63954210FD8270041CE18 /* BarMenu.xib */; };
 		EDDEEF62210FD557007BC406 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDEEF61210FD557007BC406 /* AppDelegate.swift */; };
 		EDDEEF64210FD557007BC406 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDEEF63210FD557007BC406 /* ViewController.swift */; };
 		EDDEEF66210FD558007BC406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDEEF65210FD558007BC406 /* Assets.xcassets */; };
-		EDDEEF69210FD558007BC406 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDEEF67210FD558007BC406 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EDD63954210FD8270041CE18 /* BarMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BarMenu.xib; sourceTree = "<group>"; };
 		EDDEEF5E210FD557007BC406 /* MenuBarApp-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MenuBarApp-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDEEF61210FD557007BC406 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDDEEF63210FD557007BC406 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EDDEEF65210FD558007BC406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EDDEEF68210FD558007BC406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDDEEF6A210FD558007BC406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDDEEF6B210FD558007BC406 /* MenuBarApp_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MenuBarApp_macOS.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,9 +56,9 @@
 				EDDEEF61210FD557007BC406 /* AppDelegate.swift */,
 				EDDEEF63210FD557007BC406 /* ViewController.swift */,
 				EDDEEF65210FD558007BC406 /* Assets.xcassets */,
-				EDDEEF67210FD558007BC406 /* Main.storyboard */,
 				EDDEEF6A210FD558007BC406 /* Info.plist */,
 				EDDEEF6B210FD558007BC406 /* MenuBarApp_macOS.entitlements */,
+				EDD63954210FD8270041CE18 /* BarMenu.xib */,
 			);
 			path = "MenuBarApp-macOS";
 			sourceTree = "<group>";
@@ -121,8 +121,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD63955210FD8270041CE18 /* BarMenu.xib in Resources */,
 				EDDEEF66210FD558007BC406 /* Assets.xcassets in Resources */,
-				EDDEEF69210FD558007BC406 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,17 +139,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		EDDEEF67210FD558007BC406 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EDDEEF68210FD558007BC406 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EDDEEF6C210FD558007BC406 /* Debug */ = {

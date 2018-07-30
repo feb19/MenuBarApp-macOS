@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="JnE-gD-Ht5" id="y7R-d7-zx0"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="JnE-gD-Ht5" customClass="AppDelegate" customModule="MenuBarApp_macOS" customModuleProvider="target">
+            <connections>
+                <outlet property="statusMenu" destination="F7f-8I-Eov" id="xcn-WG-MWE"/>
+            </connections>
+        </customObject>
+        <customObject id="cdf-6n-6T1" customClass="NSFontManager"/>
+        <menu id="F7f-8I-Eov">
+            <items>
+                <menuItem title="Quit" id="Rc7-2w-Yb0">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quitClicked:" target="JnE-gD-Ht5" id="dzO-c8-iN3"/>
+                    </connections>
+                </menuItem>
+            </items>
+        </menu>
+    </objects>
+</document>
